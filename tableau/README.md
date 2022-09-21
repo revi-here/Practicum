@@ -31,11 +31,10 @@ Data sources for the dashboard: the data engineers promised to create an aggrega
 The table is stored in the data-analyst-youtube-data. database, which was created especially for your needs
 Data update interval: once every 24 hours, at midnight UTC  
 
-Use your dashboard to answer the questions the managers asked you:
-Which video categories trended most often?
-How were they distributed among regions?
-What categories were especially popular in the United States? Were there any differences between the categories popular in the US and those popular elsewhere?
-
-
 Graphs, dashboard controls, and their arrangement:  
-<img src="dashboard_layout.png"></img>
+<img src="dashboard_layout.png"></img>   
+
+# Use your dashboard to answer the questions :   
+Which video categories trended most often?  
+How were they distributed among regions?   
+What categories were especially popular in the United States? Were there any differences between the categories popular in the US and those popular elsewhere?
