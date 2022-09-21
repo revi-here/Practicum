@@ -38,3 +38,4 @@ What categories were especially popular in the United States? Were there any dif
 
 
 Graphs, dashboard controls, and their arrangement:  
+<img src="dashboard_layout.png"></img>
