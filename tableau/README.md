@@ -28,7 +28,7 @@ Data sources for the dashboard: the data engineers promised to create an aggrega
 `category_title` — the video category  
 `videos_count `— the number of videos in the trending section  
 
-The table is stored in the data-analyst-youtube-data. database, which was created especially for your needs
+The table is stored in the 'trending_by_time.csv'.  
 Data update interval: once every 24 hours, at midnight UTC  
 
 Graphs, dashboard controls, and their arrangement:  
