@@ -13,6 +13,6 @@
   <td><a href="tableau/README.md">Automation-Tableau</a></td><td><a href="https://public.tableau.com/app/profile/reva2566/viz/trending_youtube_16514509215520/Dashboard1?publish=yes">Tableau Dashboard</a></td>aaa<td></td><td>aaa</td>
   </tr>
    <tr>
-  <td><a href="">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="ab_test/Readme.md">Event based analytics-A/A/B analysis</a></td><td><a href="ab_test/integrated_foodapp.ipynb">integrated_foodapp.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
   </table>
