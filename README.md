@@ -15,4 +15,7 @@
    <tr>
   <td><a href="ab_test/Readme.md">Event based analytics-A/A/B analysis</a></td><td><a href="ab_test/integrated_foodapp.ipynb">integrated_foodapp.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+  <tr>
+  <td><a href="market_analysis/README.md">Market Analysis</a></td><td><a href="market_analysis/la_market_analysis_data_presentation.ipynb">la_market_analysis_data_presentation.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
