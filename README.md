@@ -21,4 +21,7 @@
   <tr>
   <td><a href="business_analysis_ab_test/README.md">Making Business Decisions - A/B Test</a></td><td><a href="business_analysis_ab_test/abtest_online_store.ipynb">abtest_online_store.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+   <tr>
+  <td><a href="business_analysis/README.md">Business Analytics</a></td><td><a href="business_analysis/afisha_market_analaysis.ipynb">afisha_market_analaysis.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
