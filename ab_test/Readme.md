@@ -1,63 +1,41 @@
-# Project Description
-This project is an analytical task from an international online store.  
-We have an A/B test launched and then quit (to start a watermelon farm in Brazil).  
-The technical specifications and the test results are available.  
+# Project Description  
+This project is to investigate user behavior for a company's app.   
+First study the sales funnel. Find out how users reach the purchase stage. How many users actually make it to this stage? How many get stuck at previous stages? Which stages in particular?   
+Then look at the results of an A/A/B test. The designers would like to change the fonts for the entire app, but the managers are afraid the users might find the new design intimidating. They decide to make a decision based on the results of an A/A/B test.   
+The users are split into three groups: two control groups get the old fonts and one test group gets the new ones. Find out which set of fonts produces better results.   
+Creating two A groups has certain advantages. We can make it a principle that we will only be confident in the accuracy of our testing when the two control groups are similar. If there are significant differences between the A groups, this can help us uncover factors that may be distorting the results. Comparing control groups also tells us how much time and data we'll need when running further tests.   
+You'll be using the same dataset for general analytics and for A/A/B analysis. In real projects, experiments are constantly being conducted. Analysts study the quality of an app using general data, without paying attention to whether users are participating in experiments.   
 
-# Technical description  
-
-Test name: recommender_system_test   
-Groups: А (control), B (new payment funnel)   
-Launch date: 2020-12-07   
-Date when they stopped taking up new users: 2020-12-21   
-End date: 2021-01-01   
-Audience: 15% of the new users from the EU region   
-Purpose of the test: testing changes related to the introduction of an improved recommendation system   
-Expected result: within 14 days of signing up, users will show better conversion into product page views (the product_page event), instances of adding items to the shopping cart (product_cart), and purchases (purchase). At each stage of the funnel product_page → product_cart → purchase, there will be at least a 10% increase.   
-Expected number of test participants: 6000   
-Download the test data, see whether it was carried out correctly, and analyze the results.
-
-# Description of the data
-ab_project_marketing_events_us.csv — the calendar of marketing events for 2020  
-final_ab_new_users_upd_us.csv — all users who signed up in the online store from December 7 to 21, 2020   
-final_ab_events_upd_us.csv — all events of the new users within the period from December 7, 2020 through January 1, 2021   
-final_ab_participants_upd_us.csv — table containing test participants  
-
-### Structure of ab_project__marketing_events_us.csv:
-`name` — the name of the marketing event  
-`regions` — regions where the ad campaign will be held  
-`start_dt` — campaign start date  
-`finish_dt` — campaign end date  
-
-### Structure of final_ab_new_users_upd_us.csv:   
-`user_id`  
-`first_date `— sign-up date  
-`region `  
-`device` — device used to sign up   
-
-### Structure of final_ab_events_upd_us.csv:   
-`user_id `  
-`event_dt` — event date and time   
-`event_name` — event type name   
-`details `— additional data on the event (for instance, the order total in USD for purchase events)   
-
-### Structure of final_ab_participants_upd_us.csv:   
-`user_id  ` 
-`ab_test` — test name   
-`group` — the test group the user belonged to   
-
-# Instructions for completing the task  
-Describe the goals of the study.   
-Explore the data   
-Do types need to be converted?   
-Are there any missing or duplicate values? If so, how would you characterize them?   
-Carry out exploratory data analysis   
-Study conversion at different stages of the funnel.   
-Is the number of events per user distributed equally among the samples?   
-Are there users who are present in both samples?   
-How is the number of events distributed among days?   
-Are there any peculiarities in the data that you have to take into account before starting the A/B test?   
-Evaluate the A/B test results   
-What can you say about the A/B test results?   
-Use a z-test to check the statistical difference between the proportions.   
-Describe your conclusions regarding the EDA stage and the A/B test results.   
-
+# Description of the data  
+Each log entry is a user action or an event.  
+`EventName` — event name  
+`DeviceIDHash` — unique user identifier  
+`EventTimestamp` — event time   
+`ExpId` — experiment number: 246 and 247 are the control groups, 248 is the test group   
+# Steps for completing the project  
+# Step 1. Open the data file and read the general information  
+logs_exp_us.csv Download dataset  
+# Step 2. Prepare the data for analysis  
+Rename the columns in a way that's convenient for you   
+Check for missing values and data types. Correct the data if needed   
+Add a date and time column and a separate column for dates   
+# Step 3. Study and check the data  
+How many events are in the logs?  
+How many users are in the logs?   
+What's the average number of events per user?  
+What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?  
+Did you lose many events and users when excluding the older data?   
+Make sure you have users from all three experimental groups.  
+# Step 4. Study the event funnel   
+See what events are in the logs and their frequency of occurrence. Sort them by frequency.  
+Find the number of users who performed each of these actions. Sort the events by the number of users. Calculate the proportion of users who performed the action at least once.  
+In what order do you think the actions took place. Are all of them part of a single sequence? You don't need to take them into account when calculating the funnel.  
+Use the event funnel to find the share of users that proceed from each stage to the next. (For instance, for the sequence of events A → B → C, calculate the ratio of users at stage B to the number of users at stage A and the ratio of users at stage C to the number at stage B.)   
+At what stage do you lose the most users?  
+What share of users make the entire journey from their first event to payment?   
+# Step 5. Study the results of the experiment  
+How many users are there in each group?  
+We have two control groups in the A/A test, where we check our mechanisms and calculations. See if there is a statistically significant difference between samples 246 and 247.  
+Select the most popular event. In each of the control groups, find the number of users who performed this action. Find their share. Check whether the difference between the groups is statistically significant. Repeat the procedure for all other events (it will save time if you create a special function for this test). Can you confirm that the groups were split properly?   
+Do the same thing for the group with altered fonts. Compare the results with those of each of the control groups for each event in isolation. Compare the results with the combined results for the control groups. What conclusions can you draw from the experiment?   
+What significance level have you set to test the statistical hypotheses mentioned above? Calculate how many statistical hypothesis tests you carried out. With a statistical significance level of 0.1, one in 10 results could be false. What should the significance level be? If you want to change it, run through the previous steps again and check your conclusions.
