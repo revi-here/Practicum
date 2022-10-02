@@ -24,4 +24,7 @@
    <tr>
   <td><a href="business_analysis/README.md">Business Analysis</a></td><td><a href="business_analysis/afisha_market_analysis.ipynb">afisha_market_analaysis.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+     <tr>
+  <td><a href="eda_zuber/README.md">Exploratory Data Analysis</a></td><td><a href="eda/afisha_market_analysis.ipynb">afisha_market_analaysis.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
