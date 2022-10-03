@@ -30,4 +30,7 @@
   <tr>
   <td><a href="eda_online_store/README.md">Exploratory Data Analysis - Online Store </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+  <tr>
+  <td><a href="sda/README.md">Exploratory Data Analysis - Online Store </a></td><td><a href="sda/sda_prepaid_plans_analysis.ipynb">sda_prepaid_plans_analysis.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
