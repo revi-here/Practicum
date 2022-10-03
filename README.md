@@ -36,4 +36,7 @@
   <tr>
   <td><a href="eda_car_sales/README.md">Exploratory Data Analysis - Car Sales </a></td><td><a href="eda_car_sales/eda_car_sales.ipynb">eda_car_sales.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+  <tr>
+  <td><a href="data_preprocess/README.md">Exploratory Data Analysis - Car Sales </a></td><td><a href="data_preprocess/bank_loan_data_preprocess.ipynb">bank_loan_data_preprocess.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
