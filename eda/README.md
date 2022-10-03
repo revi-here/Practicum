@@ -26,7 +26,7 @@ A database with info on taxi rides in Chicago:
 `temperature`: temperature when the record was taken  
 `description`: brief description of weather conditions, e.g. "light rain" or "scattered clouds"  
 #### Table scheme  
-<image src=""></img>  
+<image src="images/eda_trips.png"></img>  
 
 Note: there isn't a direct connection between the tables trips and weather_records in the database. But you can still use JOIN and link them using the time the ride started (trips.start_ts) and the time the weather record was taken (weather_records.ts).  
 
