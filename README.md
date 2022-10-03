@@ -17,7 +17,7 @@
   <td><a href="ab_test/Readme.md">Event based analytics-A/A/B analysis</a></td><td><a href="ab_test/integrated_foodapp.ipynb">integrated_foodapp.ipynb</a></td><td>Study the sales funnel and then the results of A/A/B test</td><td>Pandas,Numpy,matplotlib,seaborn,plotle,scipy</td><td>10</td>
   </tr>
   <tr>
-  <td><a href="market_analysis/README.md">Market Analysis</a></td><td><a href="market_analysis/la_market_analysis_data_presentation.ipynb">la_market_analysis_data_presentation.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="market_analysis/README.md">Market Analysis</a></td><td><a href="market_analysis/la_market_analysis_data_presentation.ipynb">la_market_analysis_data_presentation.ipynb</a></td><td>Prepare some market research on open-source data on restaurants in LA.</td><td>Pandas,numpy,matplotlib,seaborn,plotly</td><td>9</td>
   </tr>
   <tr>
   <td><a href="business_analysis_ab_test/README.md">Making Business Decisions - A/B Test</a></td><td><a href="business_analysis_ab_test/abtest_online_store.ipynb">abtest_online_store.ipynb</a></td>aaa<td></td><td>aaa</td>
