@@ -23,7 +23,8 @@
   <td><a href="business_analysis_ab_test/README.md">Making Business Decisions - A/B Test</a></td><td><a href="business_analysis_ab_test/abtest_online_store.ipynb">abtest_online_store.ipynb</a></td><td>Prioritize the hypotheses , launch an A/B test, and analyze the results.</td><td>pandas,numpy,matplotlib</td><td>8</td>
   </tr>
    <tr>
-  <td><a href="business_analysis/README.md">Business Analysis</a></td><td><a href="business_analysis/afisha_market_analysis.ipynb">afisha_market_analaysis.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="business_analysis/README.md">Business Analysis</a></td><td><a href="business_analysis/afisha_market_analysis.ipynb">afisha_market_analaysis.ipynb</a></td><td>Study how people use the product,when they start to buy,
+how much money each customer brings,When they pay off from yandex.afisha</td><td>pandas,numpy,matplotlib,seaborn</td><td>7</td>
   </tr>
      <tr>
   <td><a href="eda/README.md">Exploratory Data Analysis - SQL </a></td><td><a href="eda/zuber_eda.ipynb">zuber_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
