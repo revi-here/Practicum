@@ -39,4 +39,7 @@
   <tr>
   <td><a href="data_preprocess/README.md">Data Preprocessing - Bank loan</a></td><td><a href="data_preprocess/bank_loan_data_preprocess.ipynb">bank_loan_data_preprocess.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
+   <tr>
+  <td><a href="basic_python/README.md">Basic python - Yandex music</a></td><td><a href="basic_python/yandex_music.ipynb">yandex_music.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
   </table>
