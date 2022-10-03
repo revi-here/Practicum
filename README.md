@@ -37,7 +37,8 @@ how much money each customer brings,When they pay off from yandex.afisha</td><td
   <td>analyze clients' behavior and determine which prepaid plan brings in more revenue.</td><td>numpy,pandas,matpltlib,scipy</td><td>4</td>
   </tr>
   <tr>
-  <td><a href="eda_car_sales/README.md">Exploratory Data Analysis - Car Sales </a></td><td><a href="eda_car_sales/eda_car_sales.ipynb">eda_car_sales.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="eda_car_sales/README.md">Exploratory Data Analysis - Car Sales </a></td><td><a href="eda_car_sales/eda_car_sales.ipynb">eda_car_sales.ipynb</a></td><td>Study data collected
+over the last few years and determine which factors influence the price of a vehicle.</td><td>pandas,matplotlib</td><td>3</td>
   </tr>
   <tr>
   <td><a href="data_preprocess/README.md">Data Preprocessing - Bank loan</a></td><td><a href="data_preprocess/bank_loan_data_preprocess.ipynb">bank_loan_data_preprocess.ipynb</a></td>aaa<td></td><td>aaa</td>
