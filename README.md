@@ -20,7 +20,7 @@
   <td><a href="market_analysis/README.md">Market Analysis</a></td><td><a href="market_analysis/la_market_analysis_data_presentation.ipynb">la_market_analysis_data_presentation.ipynb</a></td><td>Prepare some market research on open-source data on restaurants in LA.</td><td>Pandas,numpy,matplotlib,seaborn,plotly</td><td>9</td>
   </tr>
   <tr>
-  <td><a href="business_analysis_ab_test/README.md">Making Business Decisions - A/B Test</a></td><td><a href="business_analysis_ab_test/abtest_online_store.ipynb">abtest_online_store.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="business_analysis_ab_test/README.md">Making Business Decisions - A/B Test</a></td><td><a href="business_analysis_ab_test/abtest_online_store.ipynb">abtest_online_store.ipynb</a></td><td>Prioritize the hypotheses , launch an A/B test, and analyze the results.</td><td>pandas,numpy,matplotlib</td><td>8</td>
   </tr>
    <tr>
   <td><a href="business_analysis/README.md">Business Analysis</a></td><td><a href="business_analysis/afisha_market_analysis.ipynb">afisha_market_analaysis.ipynb</a></td>aaa<td></td><td>aaa</td>
