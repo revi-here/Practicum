@@ -6,7 +6,7 @@
   <td><a href="ab_test_online_store/README.md">Final Integrated Project</a></td><td><a href="ab_test_online_store/abtest_final.ipynb">abtest_final.ipynb</a></td><td>See if the A/B test data taken according to the technical requirements and analyse the result </td><td>Pandas,Numpy,Scipy</td><td>13</td>
   </tr>
   <tr>
-  <td><a href="machine_learning/README.md">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="machine_learning/README.md">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td>Build a model to predict user churn</td><td>Pandas,Numpy,matplotlib,seaborn,sklearn.linear_model,sklearn.clusters</td><td>12</td>
   </tr>
  
    <tr>
