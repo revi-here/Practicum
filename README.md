@@ -41,7 +41,7 @@ how much money each customer brings,When they pay off from yandex.afisha</td><td
 over the last few years and determine which factors influence the price of a vehicle.</td><td>pandas,matplotlib</td><td>3</td>
   </tr>
   <tr>
-  <td><a href="data_preprocess/README.md">Data Preprocessing - Bank loan</a></td><td><a href="data_preprocess/bank_loan_data_preprocess.ipynb">bank_loan_data_preprocess.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="data_preprocess/README.md">Data Preprocessing - Bank loan</a></td><td><a href="data_preprocess/bank_loan_data_preprocess.ipynb">bank_loan_data_preprocess.ipynb</a></td><td>Find out if a customer’s marital status and number of children have an impact on whether they will default on a loan</td><td>pandas</td><td>2</td>
   </tr>
    <tr>
   <td><a href="basic_python/README.md">Basic python - Yandex music</a></td><td><a href="basic_python/yandex_music.ipynb">yandex_music.ipynb</a></td>aaa<td></td><td>aaa</td>
