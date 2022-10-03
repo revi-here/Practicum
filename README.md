@@ -6,11 +6,11 @@
   <td><a href="ab_test_online_store/README.md">Final Integrated Project</a></td><td><a href="ab_test_online_store/abtest_final.ipynb">abtest_final.ipynb</a></td><td>See if the A/B test data taken according to the technical requirements and analyse the result </td><td>Pandas,Numpy,Scipy</td><td>13</td>
   </tr>
   <tr>
-  <td><a href="machine_learning/README.md">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td>Build a model to predict user churn</td><td>Pandas,Numpy,matplotlib,seaborn,sklearn.linear_model,sklearn.clusters</td><td>12</td>
+  <td><a href="machine_learning/README.md">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td>Build a model to predict user churn</td><td>Pandas,Numpy,matplotlib,seaborn,sklearn</td><td>12</td>
   </tr>
  
    <tr>
-  <td><a href="tableau/README.md">Automation-Tableau</a></td><td><a href="https://public.tableau.com/app/profile/reva2566/viz/trending_youtube_16514509215520/Dashboard1?publish=yes">Tableau Dashboard</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="tableau/README.md">Automation-Tableau</a></td><td><a href="https://public.tableau.com/app/profile/reva2566/viz/trending_youtube_16514509215520/Dashboard1?publish=yes">Tableau Dashboard</a></td><td>Analyze trending videos on YouTube to determine what content deserves marketing attention</td><td>aaa</td><td>Tableau</td><td>11</td>
   </tr>
    <tr>
   <td><a href="ab_test/Readme.md">Event based analytics-A/A/B analysis</a></td><td><a href="ab_test/integrated_foodapp.ipynb">integrated_foodapp.ipynb</a></td>aaa<td></td><td>aaa</td>
