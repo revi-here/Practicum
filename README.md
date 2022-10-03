@@ -10,8 +10,9 @@
   </tr>
  
    <tr>
-  <td><a href="tableau/README.md">Automation-Tableau</a></td><td><a href="https://public.tableau.com/app/profile/reva2566/viz/trending_youtube_16514509215520/Dashboard1?publish=yes">Tableau Dashboard</a></td><td>Analyze trending videos on YouTube to determine what content deserves marketing attention</td><td>aaa</td><td>Tableau</td><td>11</td>
-  </tr>
+  <td><a href="tableau/README.md">Automation-Tableau</a></td>
+  <td><a href="https://public.tableau.com/app/profile/reva2566/viz/trending_youtube_16514509215520/Dashboard1?publish=yes">Tableau Dashboard</a></td>      <td>Analyze trending videos on YouTube to determine what content deserves marketing attention</td><td>Tableau</td><td>11</td>
+    </tr>
    <tr>
   <td><a href="ab_test/Readme.md">Event based analytics-A/A/B analysis</a></td><td><a href="ab_test/integrated_foodapp.ipynb">integrated_foodapp.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
