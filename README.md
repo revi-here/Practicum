@@ -3,10 +3,10 @@
   <table>
   <th>Project Name</th><th>Notebook</th><th>Description</th><th>Dependencies</th><th>Sprint</th>
    <tr>
-  <td><a href="ab_test_online_store/README.md">Final Integrated Project</a></td><td><a href="ab_test_online_store/abtest_final.ipynb">abtest_final.ipynb</a></td><td>See if the A/B test data taken according to the technical requirements and analyse the result </td><td>Pandas,Numpy,Scipy</td><td>13</td>
+  <td><a href="ab_test_online_store/README.md">Final Integrated Project - Analyse A/B test</a></td><td><a href="ab_test_online_store/abtest_final.ipynb">abtest_final.ipynb</a></td><td>See if the A/B test data taken according to the technical requirements and analyse the result </td><td>Pandas,Numpy,Scipy</td><td>13</td>
   </tr>
   <tr>
-  <td><a href="machine_learning/README.md">machine_learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td>Build a model to predict user churn</td><td>Pandas,Numpy,matplotlib,seaborn,sklearn</td><td>12</td>
+  <td><a href="machine_learning/README.md">Machine learning</a></td><td><a href="machine_learning/model_fitness_machine_learning.ipynb">model_fitness_machine_learning.ipynb</a></td>aaa<td>Build a model to predict user churn</td><td>Pandas,Numpy,matplotlib,seaborn,sklearn</td><td>12</td>
   </tr>
  
    <tr>
@@ -30,7 +30,7 @@ how much money each customer brings,When they pay off from yandex.afisha</td><td
   <td><a href="eda/README.md">Exploratory Data Analysis - SQL </a></td><td><a href="eda/zuber_eda.ipynb">zuber_eda.ipynb</a></td><td>Study Passenger preferences and the impact of external factors on rides.Analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.</td><td>pandas,matplotlib,seaborn,scipy</td><td>6</td>
   </tr>
   <tr>
-  <td><a href="eda_online_store/README.md">Integrated Project - Online Store </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td><td>Identify patterns that determine whether a game succeeds and spot potential winners for advertising campaigns.</td><td>numpy,pandas,matplotlib,scipy</td><td>5</td>
+  <td><a href="eda_online_store/README.md">Integrated Project - Online Store(EDA) </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td><td>Identify patterns that determine whether a game succeeds and spot potential winners for advertising campaigns.</td><td>numpy,pandas,matplotlib,scipy</td><td>5</td>
   </tr>
   <tr>
   <td><a href="sda/README.md">Statistical Data Analysis - Telecom Operator </a></td><td><a href="sda/sda_prepaid_plans_analysis.ipynb">sda_prepaid_plans_analysis.ipynb</a></td>
