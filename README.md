@@ -28,9 +28,12 @@
   <td><a href="eda/README.md">Exploratory Data Analysis - SQL </a></td><td><a href="eda/zuber_eda.ipynb">zuber_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
   <tr>
-  <td><a href="eda_online_store/README.md">Exploratory Data Analysis - Online Store </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="eda_online_store/README.md">Integrated Project - Online Store </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
   <tr>
   <td><a href="sda/README.md">Statistical Data Analysis - Telecom Operator </a></td><td><a href="sda/sda_prepaid_plans_analysis.ipynb">sda_prepaid_plans_analysis.ipynb</a></td>aaa<td></td><td>aaa</td>
+  </tr>
+  <tr>
+  <td><a href="eda_car_sales/README.md">Exploratory Data Analysis - Car Sales </a></td><td><a href="eda_car_sales/eda_car_sales.ipynb">eda_car_sales.ipynb</a></td>aaa<td></td><td>aaa</td>
   </tr>
   </table>
