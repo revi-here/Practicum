@@ -27,7 +27,7 @@
 how much money each customer brings,When they pay off from yandex.afisha</td><td>pandas,numpy,matplotlib,seaborn</td><td>7</td>
   </tr>
      <tr>
-  <td><a href="eda/README.md">Exploratory Data Analysis - SQL </a></td><td><a href="eda/zuber_eda.ipynb">zuber_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
+  <td><a href="eda/README.md">Exploratory Data Analysis - SQL </a></td><td><a href="eda/zuber_eda.ipynb">zuber_eda.ipynb</a></td><td>Study Passenger preferences and the impact of external factors on rides.Analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.</td><td>pandas,matplotlib,seaborn,scipy</td><td></6>
   </tr>
   <tr>
   <td><a href="eda_online_store/README.md">Integrated Project - Online Store </a></td><td><a href="eda_online_store/ice_online_store_eda.ipynb">ice_online_store_eda.ipynb</a></td>aaa<td></td><td>aaa</td>
